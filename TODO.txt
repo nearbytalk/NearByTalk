@@ -1,0 +1,15 @@
+first run : select root directory (delay until UI is complete)
+
+copy resource to file root dir
+
+record runtime info into preferences
+
+disable iptables in reverse order
+
+create wifi ap with no password
+
+auto copy apk as downloadable file
+
+refactor ...
+
+reset DB needs to delete sqlite wal/shm file

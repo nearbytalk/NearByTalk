@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/org.nearbytalk"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.wvr.widget.TextProgressBar
+        android:id="@+id/progress_bar_scan_state"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:maxHeight="30dp"
+        android:minHeight="30dp"
+        android:progress="0"
+        android:progressDrawable="@drawable/progressbar"
+        app:text="@string/text_scanning"
+        app:textColor="@android:color/black"
+        app:textSize="16dp" />
+
+    <ListView
+        android:id="@+id/list_view_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

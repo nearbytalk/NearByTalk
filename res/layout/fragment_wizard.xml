@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:shrinkColumns="1" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/buttonAutomaticMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_automatic_mode" />
+
+        <TextView
+            android:id="@+id/textAutomaticModeComment"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/text_automatic_mode_comment"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/buttonServerMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_server_mode" />
+
+        <TextView
+            android:id="@+id/textServerModeComment"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/text_server_mode_comment"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/buttonClientMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_client_mode" />
+
+        <TextView
+            android:id="@+id/textClientModeComment"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/text_client_mode_comment"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/buttonMaunal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_manual_text" />
+
+        <TextView
+            android:id="@+id/text_available_server"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/text_manual_mode_comment"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </TableRow>
+
+</TableLayout>

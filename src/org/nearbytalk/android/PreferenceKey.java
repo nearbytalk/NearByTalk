@@ -1,0 +1,34 @@
+package org.nearbytalk.android;
+
+
+public class PreferenceKey {
+
+	public static final String SHOW_NO_ROOT_NOTICE_AGAIN_KEY = "SHOW_ROOT_NOTICE_AGAIN";
+
+	public static final String SHOW_WIFI_DISCONNECT_NOTICE_AGAIN_KEY= "SHOW_WIFI_DISCONNECT_NOTICE_AGAIN";
+
+	public static final String FIRST_ROOT_ACQUIRE = "FIRST_ROOT_ACQUIRE";
+
+	public static final String RESOURCE_COPY_FINISHED_KEY = "RESOURCE_COPY_FINISHED";
+	
+	public static final String DESTROY_WHEN_PASSWORD_WRONG_KEY="DESTROY_WHEN_PASSWORD_WRONG";
+	
+	public static final String DESTROY_RETRY_MAX_COUNT_KEY="DESTROY_RETRY_MAX_COUNT";
+
+	public static String RUNTIME_INFO_KEY = "RUNTIME_INFO";
+
+	public static String DNS_FORWARD_PORT_KEY = "LAST_DNS_FORWARD_PORT";
+	public static String HTTP_FORWARD_PORT_KEY = "LAST_HTTP_FORWARD_PORT";
+	
+	
+	public static String ROOT_PERMISSION_ACQUIRED_KEY="ROOT_PERMISSION_ACQUIRED";
+	
+	public static String CUSTOM_SSID_KEY="CUSTOM_SSID";
+	
+	public static String ACTIVE_PREFENCE_KEY="ACTIVE_PREFERNCE";
+	
+	public static final String DEFAULT_SELECT_INTERFACE_NAME_KEY="DEFAULT_SELECT_INTERFACE";
+
+	public static final String REMEMBER_DEFAULT_SELECT_INTERFACE_KEY = "REMEMBER_DEFAULT_SELECT_INTERFACE";
+
+}

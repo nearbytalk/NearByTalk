@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">随便聊</string>
+    <string name="action_settings">设置</string>
+    <string name="button_start_text">启动</string>
+    <string name="button_stop_text">停止</string>
+    <string name="diag_init_loading_title">首次运行配置</string>
+    <string name="diag_init_loading_message">已经完成 %d%% &#8230;</string>
+    <string name="diag_init_error_title">发生错误!</string>
+    <string name="diag_init_error_timeout">初始化超时</string>
+    <string name="diag_init_error_error">首次配置出现错误</string>
+    <string name="diag_init_complete">完成!</string>
+    <string name="diag_init_title_repair">重新初始化</string>
+    <string name="diag_bad_password_title">密码错误</string>
+    <string name="button_force_update_password_sha1">强制</string>
+    <string name="dialog_reinit_resource">文件错误！是否重新初始化？您的密码将会丢失</string>
+    <string name="error_http_service_start_failed">主机模式服务启动失败</string>
+    <string name="error_start_failure">启动发生错误</string>
+    <string name="text_starting">启动中&#8230;</string>
+    <string name="text_stopping">停止中&#8230;</string>
+    <string name="text_automatic_mode_comment">尝试连接周边的服务器，若失败则建立新的服务器</string>
+    <string name="text_server_mode_comment">建立新的服务器，等待其他人的加入</string>
+    <string name="text_client_mode_comment">扫描周边的服务器并加入</string>
+    <string name="text_manual_mode_comment">完全手动控制TalkNoMoney</string>
+    <string name="button_manual_text">手动（高级）</string>
+    <string name="text_server_state">Http服务器运行在端口 : %1$s\nDNS 运行在端口 : %2$s\n使用Wifi网络 : %3$s\n</string>
+    <string name="text_iptables_state">iptables 端口转发: %1$s</string>
+    <string name="button_automatic_mode">自动</string>
+    <string name="button_client_mode">客户端模式</string>
+    <string name="button_server_mode">服务器模式</string>
+    <string name="stopped">已停止</string>
+    <string name="button_open">打开</string>
+    <string name="text_running_on">运行在端口%1$s</string>
+    <string name="error_no_external_storage_title">没有可用的外置SD卡</string>
+    <string name="text_no_external_storage">您的手机必须有可用的SD卡</string>
+    <string name="text_scanning">扫描中&#8230;</string>
+    <string name="text_scan_complete">扫描结束</string>
+    <string name="text_no_server_avaiable">当前网络中没有找到服务器，尝试连接其他网络或再次扫描?</string>
+    <string name="text_may_not_wifi_ap">(可能不是无线热点)</string>
+    <string name="text_password_incorrect">密码错误，是否重试? 如果您忘记了密码，可以重新初始化app</string>
+    <string name="button_exit_server_mode"> 离开服务器模式</string>
+    <string name="text_choose_hotspot_interface">choose which used to determine IP of hotspot. most should choose one with ip 192.168.43.1 (Android default) . if this is  not the case ,choose the correct one.</string>
+    <string name="title_choose_hotspot_interface">Choose Hotspot ethernet interface</string>
+    <string name="text_server_running_in_background">服务器在后台运行中&#8230;</string>
+    <string name="text_dont_show_again">我知道了，以后不要再提示了</string>
+    <string-array name="array_root_notice">
+        <item>全功能运行需要Root权限,，您需要Root过的手机，并在后续的权限确认中同意授权。如果没有Root权限，其他人必须同样安装app或者直接输入网址才能访问您的服务端。若获取了Root权限，则任意连接的设备上访问的地址都将被定向到您的服务上。	</item>
+        <item>等待root授权中… 请等待。&quot;yes&quot; or &quot;grant&quot; when asking.</item>
+        <item>获取root授权超时或失败, 再次尝试 ?</item>
+        <item>获取root权限成功!</item>
+        <item>获取root权限失败,您的手机可能没有root，部分功能将受到限制。</item>
+    </string-array>
+    
+    <string name="button_retry">重试</string>
+    <string name="text_set_password_notice">设定密码</string>
+    <string name="text_recover_prompt">"您希望重置应用数据吗 ? 您之前的所有记录将会被清除!"</string>
+
+
+	<string-array name="text_background_action">
+        <item >获取root权限&#8230;</item>
+        <item >检查资源&#8230;</item>
+        <item >创建wifi热点&#8230;</item>
+    </string-array>
+
+	<string name="button_reinit">重置所有数据</string>
+    <string name="button_acquire_root">获取root权限</string>
+    <string name="error_copy_resource_failed">拷贝资源失败!</string>
+    <string name="error_resource_corrupted">资源损坏!</string>
+    <string name="text_setting_password">设定密码中&#8230;</string>
+    <string name="error_set_password_failed">设置密码失败!</string>
+    <string name="text_resource_copy_complete">准备完毕!</string>
+    <string name="text_confirm_password">请再次输入密码确认</string>
+    <string name="error_password_mismatch">密码不匹配!请重新输入</string>
+    <string name="button_change_password">修改密码</string>
+    <string name="warning_wifi_disconnect">提醒: 当开启热点模式时，您现有的wifi连接将会中断</string>
+    <string name="text_multi_interface_notice">找到多个网络接口, 可能您的设备有额外的无线/有线网络，请选择服务器将要运行的网络。如果不确定，请选择全部。</string>
+    <string name="text_remember_my_choice">记住我的选择</string>
+    <string name="text_waiting_ap">等待热点创建完成&#8230;</string>
+    <string name="error_wifi_ap_not_start">wifi热点模式无法启动，您可以尝试在系统设置界面->无线和网络->更多设置->网络分享和便携式热点 中手动启动wifi热点(有些手机可能有独立的“网络共享”应用)。不开启wifi热点也可以工作，但此模式下您必须加入其他网络中，且其他用户必须手动输入界面上显示的网址才能访问您的服务。</string>
+    <string name="button_go_to_wifi_setting">打开系统设置</string>
+    <string name="button_continue_without_hotspot">不使用wifi热点，继续</string>
+    <string name="error_interface_not_found">在您的设备上没有发现可用的网络界面，也许您未连接到任何可用的wifi网络</string>
+    <string name="text_no_root">需要root权限</string>
+    <string name="text_stopped">已停止</string>
+    <string name="error_no_iptables">找不到可用的iptables，您可能需要手动安装busybox</string>
+    <string name="error_wrong_password">密码错误</string>
+    <string name="text_input_unlock_password">请输入密码</string>
+    <string name="text_started">已经启动</string>
+    <string name="text_more_password_try">, 还有 %1$s 次剩余机会</string>
+    <string name="button_custom_ssid">自定义热点名称</string>
+    <string name="text_change_hotspot_ssid">自定义无线名称(ssid), 如果未设定或者留空，则使用随机的名字(比如freewifi_9bx3s)</string>
+</resources>

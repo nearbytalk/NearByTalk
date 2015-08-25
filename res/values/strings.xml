@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NearByTalk</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_start_text">Start</string>
+    <string name="button_stop_text">Stop</string>
+    <string name="diag_init_loading_title">first run preparing &#8230;</string>
+    <string name="diag_init_loading_message">%d%% complete</string>
+    <string name="diag_init_error_title">Error happened!</string>
+    <string name="diag_init_error_timeout">preparing time out</string>
+    <string name="diag_init_error_error">Error happened when preparing first run</string>
+    <string name="diag_init_complete">Complete!</string>
+    <string name="diag_init_title_repair">reinit&#8230;</string>
+    <string name="diag_bad_password_title">Password does not match! if you have swtiched to a exists store place which has different password, use %1s$ </string>
+    <string name="button_force_update_password_sha1">force</string>
+    <string name="dialog_reinit_resource">file corrupted, re-init all resource? your password will be lost</string>
+    <string name="error_http_service_start_failed">http service start failed!</string>
+    <string name="text_starting">starting&#8230;</string>
+    <string name="text_stopping">Stopping &#8230;</string>
+    <string name="text_stopped">stopped</string>
+    <string name="text_started">started</string>
+    <string name="text_automatic_mode_comment">scan server and connect. if none avaible ,create a new server</string>
+    <string name="text_server_mode_comment">create a new TalkNoMoney server ,wait for others join</string>
+    <string name="text_client_mode_comment">scan TalkNoMoney server and connect it</string>
+    <string name="text_manual_mode_comment">control TalkNoMoney completely</string>
+    <string name="button_manual_text">manual(advanced)</string>
+    <string name="text_server_state">Http Server : %1$s\nDNS Server state: %2$s\nOver WIFI network : %3$s</string>
+    <string name="text_running_on">running on port %1$s</string>
+    <color name="color_server_started">#00FF00</color>
+    <color name="color_server_stopping">#00FF00</color>
+    <color name="color_server_stopped">#FF0000</color>
+    <color name="color_server_failure">#FF0000</color>
+    <string name="button_automatic_mode">automatic</string>
+    <string name="button_client_mode">client mode</string>
+    <string name="button_server_mode">server mode</string>
+    <string name="stopped">stopped</string>
+    <string name="button_open">open</string>
+    <string name="error_no_external_storage_title">No External SDCard</string>
+    <string name="text_no_external_storage">You must has an external SDCard to run this App</string>
+    <string name="text_choose_hotspot_interface">choose which used to determine IP of hotspot. most should choose one with ip 192.168.43.1 (Android default) . if this is  not the case ,choose the correct one.</string>
+    <string name="title_choose_hotspot_interface">Choose Hotspot ethernet interface</string>
+    <string name="text_scanning">scanning&#8230;</string>
+    <string name="text_scan_complete">scan completed%s</string>
+    <string name="text_no_server_avaiable">no server avaiable over current network, switch to another or scan again?</string>
+    <string name="text_may_not_wifi_ap">(maybe not wifi ap)</string>
+    <string name="text_password_incorrect">Password incorrect, try again ? if you forgot it totally , you can re-init app</string>
+    <string name="button_exit_server_mode"> exit server mode</string>
+    <string name="text_server_running_in_background">server is running in background&#8230;</string>
+    <string-array name="array_root_notice">
+        <item >	root permission is needed for works properly, you need a &quot;rooted&quot;  phone, and should confirm &quot;yes&quot; in following dialog. without root permission, others must run client or input URL directly to access your server. but if you have root permission, any URL from any client  will be directed to your server				</item>
+        <item >waiting root permission grant&#8230; may be take a while. please say &quot;yes&quot; or &quot;grant&quot; when asking.</item>
+        <item >acquire root timeout or failed , try again ?</item>
+        <item >acquired root permission successful!</item>
+        <item >acquire root permission failed , maybe your phone is not rooted yet.</item>
+    </string-array>
+    
+    <string-array name="text_background_action">
+        <item >acquiring root permission&#8230;</item>
+        <item >checking resource&#8230;</item>
+        <item >creating wifi ap&#8230;</item>
+    </string-array>
+    
+    <string name="text_dont_show_again">I known , dont show it again</string>
+    
+    <string name="button_retry">retry</string>
+    <string name="text_recover_prompt">"Do you want to reset resources ? your previous talking record will be lost!"</string>
+    <string name="text_set_password_notice">"set a password to protect your app and records. it must be entered every time you enter app. press cancel to continue if you don't need password protection. "</string>
+    <string name="button_reinit">reset all data</string>
+    <string name="button_acquire_root">acquire root permission</string>
+    <string name="error_copy_resource_failed">copy resource failed!</string>
+    <string name="error_resource_corrupted">resource corrupted!</string>
+    <string name="text_setting_password">setting password&#8230;</string>
+    <string name="error_set_password_failed">failed to set password !</string>
+    <string name="text_resource_copy_complete">preparation complete!</string>
+    <string name="text_confirm_password">please input password again to confirm</string>
+    <string name="error_password_mismatch">password mismatch! please re-enter</string>
+    <string name="button_change_password">change password</string>
+    <string name="button_custom_ssid">custom hotspot SSID</string>
+    <string name="warning_wifi_disconnect">warning: your wifi will be disconnect when hostspot turned on</string>
+    <string name="text_multi_interface_notice">more than one interface found, maybe your device have extra wifi or ethernet. please select which interface(s) should server running on. if not sure, select all</string>
+    <string name="text_remember_my_choice">remember my choice</string>
+    <string name="text_waiting_ap">waiting wifi hotspot created &#8230;</string>
+    <string name="error_wifi_ap_not_start">wifi hotspot can not be started. you can try to start it manually at system settings->more settings->network share(some device may have separate "wifi share" app). continue without hotspot also works, but you must join wifi and others must enter the url displayed on this app to access your service</string>
+    <string name="button_go_to_wifi_setting">Goto Wifi Settings</string>
+    <string name="button_continue_without_hotspot">continue without hotspot</string>
+    <string name="text_iptables_state">iptables port forward: %1$s</string>
+    <string name="text_change_hotspot_ssid">custom hotspot ssid, if not set or leave blank, will use random name (such as freewifi_9bx3s)</string>
+    <string name="text_no_root">needs root permission</string>
+    <string name="text_input_unlock_password">please input password to continue</string>
+    <string name="error_start_failure">start failure</string>
+    <string name="error_wrong_password">wrong password %1$s, please try again</string>
+    <string name="error_no_iptables">no avabile iptables command found, maybe you need to install busybox manually</string>
+    <string name="text_more_password_try">, %1$s times left you can retry</string>
+    <color name="color_server_starting">#F0F0F0</color>
+    <string name="error_interface_not_found">could not found any net interface on your device ! </string>
+</resources>
