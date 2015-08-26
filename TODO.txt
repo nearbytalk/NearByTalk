@@ -12,4 +12,4 @@ auto copy apk as downloadable file
 
 refactor ...
 
-reset DB needs to delete sqlite wal/shm file
+iptables create self table.
